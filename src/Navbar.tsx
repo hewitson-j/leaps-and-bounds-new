@@ -5,19 +5,19 @@ export default function Navbar() {
     <div className="navbar">
       <ul>
         <li>
-          <a>Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a>My Program</a>
+          <a href="#about">My Program</a>
         </li>
         <li>
-          <a>Meet the Teacher</a>
+          <a href="#meet-teacher">Meet the Teacher</a>
         </li>
         <li>
-          <a>Reviews</a>
+          <a href="#reviews">Reviews</a>
         </li>
         <li>
-          <a>Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
