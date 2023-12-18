@@ -6,3 +6,17 @@ body {
 a {
   cursor: pointer;
 }
+
+.buttons {
+  background-color: #3499af;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  padding: 1rem;
+}
+
+.buttons:hover {
+  background-color: #206f81;
+  cursor: pointer;
+}

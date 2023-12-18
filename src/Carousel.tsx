@@ -93,20 +93,20 @@ export default function Carousel({ images }: CarouselProps) {
   }, [currentImage, images, nextImage, prevImage]);
 
   const handlePrev = () => {
-    if (currentImage === images.length - 1) {
-      setCurrentImage(0);
+    if (currentImage === 0) {
+      setCurrentImage(images.length - 1);
     } else {
       setCurrentImage(currentImage - 1);
     }
 
-    if (prevImage === images.length - 1) {
-      setPrevImage(0);
+    if (prevImage === 0) {
+      setPrevImage(images.length - 1);
     } else {
       setPrevImage(prevImage - 1);
     }
 
-    if (nextImage === images.length - 1) {
-      setNextImage(0);
+    if (nextImage === 0) {
+      setNextImage(images.length - 1);
     } else {
       setNextImage(nextImage - 1);
     }

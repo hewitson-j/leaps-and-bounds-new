@@ -2,8 +2,8 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <>
-      <h2 id="contact">Contact us!</h2>
+    <div className="contact">
+      <h2>Contact us!</h2>
       <div className="contact-body">
         <div className="contact-child">
           <h3>Email</h3>
@@ -24,9 +24,13 @@ export default function Contact() {
           </p>
         </div>
       </div>
-      <button>
-        <a href="mailto:melonro143@yahoo.com">Schedule a Tour!</a>
-      </button>
-    </>
+      <a
+        className="buttons"
+        id="schedule-button"
+        href="mailto:melonro143@yahoo.com"
+      >
+        Schedule a Tour!
+      </a>
+    </div>
   );
 }

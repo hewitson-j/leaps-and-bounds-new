@@ -3,4 +3,22 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-evenly;
   margin: auto;
+  margin-bottom: 2rem;
+}
+
+#schedule-button {
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.contact {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 775px) {
+  .contact-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
