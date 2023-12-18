@@ -1,0 +1,26 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#header-logo {
+  display: flex;
+  width: 90%;
+  grid-column: 2;
+  margin: auto;
+}
+
+#header-whitespace {
+  width: 100%;
+  grid-column: 0;
+}
+
+#header-contact-info {
+  width: 100%;
+  grid-column: 3;
+  text-align: right;
+}
