@@ -1,0 +1,10 @@
+.body-container {
+  background-image: url("./assets/Margin-Pattern.jpg");
+  min-height: 70vh;
+}
+
+.body-content {
+  width: 60%;
+  background-color: white;
+  margin: auto;
+}
