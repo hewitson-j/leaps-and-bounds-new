@@ -10,6 +10,7 @@
 #header-logo {
   display: flex;
   width: 90%;
+  min-width: 400px;
   grid-column: 2;
   margin: auto;
 }
@@ -23,4 +24,10 @@
   width: 100%;
   grid-column: 3;
   text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+  #header-contact-info {
+    display: none;
+  }
 }

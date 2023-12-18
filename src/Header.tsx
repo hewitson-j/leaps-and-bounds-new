@@ -1,5 +1,6 @@
 import logo from "./assets/Logo.jpg";
 import "./Header.css";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
@@ -26,6 +27,7 @@ export default function Header() {
           </a>
         </div>
       </div>
+      <Navbar />
     </>
   );
 }

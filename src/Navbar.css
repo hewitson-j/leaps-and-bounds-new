@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #3499af;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 1rem;
+  transition-duration: 0.75s;
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li:hover {
+  background-color: #206f81;
+}
