@@ -1,0 +1,42 @@
+.carousel-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  width: 95%;
+  margin: auto;
+  background-image: url("./assets/PrekPaper.jpg");
+}
+
+#carousel-back-button {
+  grid-column: 1;
+}
+
+#carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  grid-column: 2;
+}
+
+#carousel-next-button {
+  grid-column: 3;
+}
+
+.carousel-button-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.carousel-body button {
+  background-color: #3499af;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  padding: 1rem;
+  height: 50px;
+}
