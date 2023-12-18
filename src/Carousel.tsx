@@ -62,11 +62,35 @@ export default function Carousel({ images }: CarouselProps) {
     } else {
       setNextImage(nextImage + 1);
     }
-
-    console.log(currentImage);
-    console.log(prevImage);
-    console.log(nextImage);
   };
+
+  useEffect(() => {
+    const autoAdvanceCarousel = () => {
+      if (currentImage === images.length - 1) {
+        setCurrentImage(0);
+      } else {
+        setCurrentImage(currentImage + 1);
+      }
+
+      if (prevImage === images.length - 1) {
+        setPrevImage(0);
+      } else {
+        setPrevImage(prevImage + 1);
+      }
+
+      if (nextImage === images.length - 1) {
+        setNextImage(0);
+      } else {
+        setNextImage(nextImage + 1);
+      }
+    };
+
+    const intervalId = setInterval(autoAdvanceCarousel, 5000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [currentImage, images, nextImage, prevImage]);
 
   const handlePrev = () => {
     if (currentImage === images.length - 1) {
@@ -86,10 +110,6 @@ export default function Carousel({ images }: CarouselProps) {
     } else {
       setNextImage(nextImage - 1);
     }
-
-    console.log(currentImage);
-    console.log(prevImage);
-    console.log(nextImage);
   };
 
   return (
