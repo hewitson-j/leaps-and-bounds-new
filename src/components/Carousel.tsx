@@ -21,8 +21,13 @@ export default function Carousel({ images }: CarouselProps) {
 
     img.onload = () => {
       const aspectRatio = img.width / img.height;
-      const maxWidth = 400;
-      const maxHeight = 400;
+      let maxWidth = 400;
+      let maxHeight = 400;
+
+      if (window.innerWidth <= 450) {
+        maxHeight = 250;
+        maxWidth = 250;
+      }
 
       let width = img.width;
       let height = img.height;
