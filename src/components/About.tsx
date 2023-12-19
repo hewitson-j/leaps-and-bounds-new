@@ -11,8 +11,10 @@ export default function About() {
         warm and loving Christian home environment and to ignite his/her
         excitement for future learning; to build self esteem, self confidence
         and self reliance. My approach to teaching is hands-on and play-based.
-        Learning styles vary. I believe the best approach to learning is through
-        all of the senses. I promote problem solving, positive social skills and
+        Learning styles vary.
+        <br />
+        <br />I believe the best approach to learning is through all of the
+        senses. I promote problem solving, positive social skills and
         communication every day. My curriculum includes studies of interest to
         the Pre-K child and I work hard to present these studies as well as
         necessary kindergarten and life skills in a meaningful way.

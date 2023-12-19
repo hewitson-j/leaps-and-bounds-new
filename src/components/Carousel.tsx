@@ -146,6 +146,24 @@ export default function Carousel({ images }: CarouselProps) {
           </button>
         </div>
       </div>
+      <div className="carousel-mobile-buttons">
+        <button
+          className="buttons"
+          onClick={handlePrev}
+          title="Back"
+          id="carousel-mobile-back-button"
+        >
+          ←
+        </button>
+        <button
+          className="buttons"
+          onClick={handleNext}
+          title="Next"
+          id="carousel-mobile-next-button"
+        >
+          →
+        </button>
+      </div>
     </>
   );
 }

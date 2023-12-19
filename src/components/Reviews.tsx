@@ -7,7 +7,9 @@ export default function Reviews() {
         have. I felt 100% comfortable sending my children to her every day. They
         loved everything about Leaps and Bounds and so did I! We will miss Ms.
         Melanie very much, but my kids are very ready for the next step of
-        Kindergarten thanks to her! - Tiffany C.
+        Kindergarten thanks to her!
+        <br />
+        <i>- Tiffany C.</i>
         <br />
         <br />
         {"\t"}Melanie is truly amazing. Her hard work and passion for teaching
@@ -17,8 +19,9 @@ export default function Reviews() {
         didn’t come out with a smile on her face. The curriculum Melanie uses is
         incredible. We are going to miss Leaps and Bounds so much next year but
         I know she has had an incredible start to her learning because of you,
-        Melanie. Thank you for everything you have done this year with Lucy. -
-        Carolyne M.
+        Melanie. Thank you for everything you have done this year with Lucy.
+        <br />
+        <i>- Carolyne M.</i>
         <br />
         <br />
         {"\t"}My Daughter has thrived here and loves going to school. She has
@@ -29,12 +32,16 @@ export default function Reviews() {
         I never feel like I don't know whats going on. She always has such fun
         and creative stations and projects for the students. I will be sending
         my son here when he is old enough and would recommend leaps and bounds
-        to everybody. - Heather B.
+        to everybody.
+        <br />
+        <i>- Heather B.</i>
         <br />
         <br />
         It’s been a pleasure watching my little girl flourish under Miss
         Melanie’s care. She is an incredible and patient teacher, who knows just
-        how to cater to each individual child’s needs! A+++++++++ - Alexandra B.
+        how to cater to each individual child’s needs! A+++++++++
+        <br />
+        <i>- Alexandra B.</i>
       </p>
     </div>
   );

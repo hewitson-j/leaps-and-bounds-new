@@ -1,6 +1,5 @@
 .body-container {
   background-image: url("../assets/Margin-Pattern.jpg");
-  min-height: 70vh;
 }
 
 .body-content {
@@ -8,4 +7,10 @@
   background-color: white;
   margin: auto;
   text-align: center;
+}
+
+@media screen and (max-width: 535px) {
+  .body-content {
+    width: 85%;
+  }
 }

@@ -13,10 +13,13 @@ export default function MeetTeacher() {
         Colorado. After 10 years of working in the public school system in
         Nevada I moved to Colorado Springs and began working at a childcare
         center and did so for over two years. At that time, I decided to open my
-        own preschool classroom. I have been teaching preschool-age students in
-        my home as a licensed family childcare provider for over five years. My
-        husband and I have been married 9 years. We have a beautifully blended
-        family with six children whose ages range from 17- 25.
+        own preschool classroom.
+        <br />
+        <br />
+        I have been teaching preschool-age students in my home as a licensed
+        family childcare provider for over five years. My husband and I have
+        been married 9 years. We have a beautifully blended family with six
+        children whose ages range from 17- 25.
         <br />
         <br />
         We have one dog named Rosie and a cat named Ophelia. I enjoy being able
