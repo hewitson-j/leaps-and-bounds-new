@@ -6,6 +6,10 @@
   margin-bottom: 2rem;
 }
 
+.contact-child p {
+  text-align: center;
+}
+
 #schedule-button {
   text-decoration: none;
   margin: 1rem;
@@ -13,6 +17,10 @@
 
 .contact {
   margin: 1rem;
+}
+
+#contact-email {
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 775px) {

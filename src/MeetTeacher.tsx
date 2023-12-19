@@ -3,7 +3,7 @@ import "./MeetTeacher.css";
 
 export default function MeetTeacher() {
   return (
-    <div className="meet-teacher">
+    <div className="meet-teacher" id="meet-teacher">
       <h2>Meet the Teacher!</h2>
       <img src={image} alt="Ms. Melanie" id="melanie-image" />
       <p>
