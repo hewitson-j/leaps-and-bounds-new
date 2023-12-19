@@ -21,8 +21,21 @@
 }
 
 #header-contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   grid-column: 3;
+}
+
+#header-contact-info p {
+  text-align: center;
+  word-wrap: break-word;
+  margin: none !important;
+  font-size: 11pt;
+}
+
+#header-contact-info a {
   text-align: right;
 }
 
