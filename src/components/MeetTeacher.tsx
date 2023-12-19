@@ -1,4 +1,4 @@
-import image from "./assets/mrs-melanie.jpg";
+import image from "../assets/mrs-melanie.jpg";
 import "./MeetTeacher.css";
 
 export default function MeetTeacher() {

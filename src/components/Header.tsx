@@ -1,4 +1,4 @@
-import logo from "./assets/Logo.jpg";
+import logo from "../assets/Logo.jpg";
 import "./Header.css";
 import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";

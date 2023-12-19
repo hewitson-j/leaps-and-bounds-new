@@ -7,7 +7,7 @@
   height: 400px;
   width: 95%;
   margin: auto;
-  background-image: url("./assets/PrekPaper.jpg");
+  background-image: url("../assets/PrekPaper.jpg");
 }
 
 #carousel-back-button {
