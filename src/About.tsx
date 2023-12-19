@@ -1,5 +1,6 @@
 import Carousel from "./Carousel";
 import { facilitiesImageArray } from "./ImagesArrays";
+import "./About.css";
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
         I want to provide your child with an exceptional Preschool experience.
         Leaps & Bounds Preschool highlights include:
       </p>
-      <ul>
+      <ul className="about-list">
         <li>A Play-Based curriculum that meets Colorado State Standards</li>
         <li>Family involvement activities several times per year</li>
         <li>

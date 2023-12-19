@@ -1,0 +1,16 @@
+.about-list {
+  display: grid;
+  font-size: 15pt;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 70%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 835px) {
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
