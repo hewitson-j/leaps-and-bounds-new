@@ -1,5 +1,6 @@
 import logo from "./assets/Logo.jpg";
 import "./Header.css";
+import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
 
 export default function Header() {
@@ -28,6 +29,7 @@ export default function Header() {
         </div>
       </div>
       <Navbar />
+      <MobileNavbar />
     </>
   );
 }
