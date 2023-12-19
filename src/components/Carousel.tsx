@@ -116,7 +116,12 @@ export default function Carousel({ images }: CarouselProps) {
     <>
       <div className="carousel-body">
         <div className="carousel-button-div">
-          <button onClick={handlePrev} title="Back" id="carousel-back-button">
+          <button
+            className="buttons"
+            onClick={handlePrev}
+            title="Back"
+            id="carousel-back-button"
+          >
             ← Back
           </button>
         </div>
@@ -131,7 +136,12 @@ export default function Carousel({ images }: CarouselProps) {
           />
         </div>
         <div className="carousel-button-div">
-          <button onClick={handleNext} title="Next" id="carousel-next-button">
+          <button
+            className="buttons"
+            onClick={handleNext}
+            title="Next"
+            id="carousel-next-button"
+          >
             Next →
           </button>
         </div>
