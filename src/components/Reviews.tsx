@@ -2,7 +2,7 @@ export default function Reviews() {
   return (
     <div className="reviews" id="reviews">
       <h2>Reviews</h2>
-      <p>
+      <p className="reviews-links">
         {"\t"}Ms. Melanie is the best and most nurturing teacher a kid could
         have. I felt 100% comfortable sending my children to her every day. They
         loved everything about Leaps and Bounds and so did I! We will miss Ms.
@@ -37,11 +37,16 @@ export default function Reviews() {
         <i>- Heather B.</i>
         <br />
         <br />
-        It’s been a pleasure watching my little girl flourish under Miss
-        Melanie’s care. She is an incredible and patient teacher, who knows just
-        how to cater to each individual child’s needs! A+++++++++
-        <br />
-        <i>- Alexandra B.</i>
+        <a
+          href="https://www.facebook.com/1381950070/posts/10214402795968689/?mibextid=WC7FNe"
+          target="_blank"
+        >
+          It’s been a pleasure watching my little girl flourish under Miss
+          Melanie’s care. She is an incredible and patient teacher, who knows
+          just how to cater to each individual child’s needs! A+++++++++
+          <br />
+          <i>- Alexandra B.</i>
+        </a>
       </p>
     </div>
   );
