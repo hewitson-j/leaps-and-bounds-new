@@ -1,9 +1,24 @@
 import "./Reviews.css";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import StarIcon from "@mui/icons-material/Star";
 
 export default function Reviews() {
   return (
     <div className="reviews" id="reviews">
       <h2>Reviews</h2>
+      <div className="reviews-star-link">
+        <FacebookIcon fontSize="large" />
+        <br />
+        5.0 Stars on Facebook!
+        <br />
+        <span>
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+        </span>
+      </div>
       <p>
         <a
           href="https://www.facebook.com/17802835/posts/10107192637214339/?mibextid=WC7FNe"
