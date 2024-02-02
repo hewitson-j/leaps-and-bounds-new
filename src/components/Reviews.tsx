@@ -6,7 +6,15 @@ export default function Reviews() {
   return (
     <div className="reviews" id="reviews">
       <h2>Reviews</h2>
-      <div className="reviews-star-link">
+      <div
+        className="reviews-star-link"
+        onClick={() => {
+          window.open(
+            "https://www.facebook.com/MsMelanieTrujillo/reviews",
+            "_blank"
+          );
+        }}
+      >
         <FacebookIcon fontSize="large" />
         <br />
         5.0 Stars on Facebook!
