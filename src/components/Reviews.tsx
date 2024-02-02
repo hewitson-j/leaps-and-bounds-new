@@ -1,8 +1,12 @@
 import "./Reviews.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import StarIcon from "@mui/icons-material/Star";
+import StarHalfIcon from "@mui/icons-material/StarHalf";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 export default function Reviews() {
+  const starArray = ["full", "full", "full", "full", "full"];
+
   return (
     <div className="reviews" id="reviews">
       <h2>Reviews</h2>
@@ -20,11 +24,15 @@ export default function Reviews() {
         5.0 Stars on Facebook!
         <br />
         <span>
-          <StarIcon />
-          <StarIcon />
-          <StarIcon />
-          <StarIcon />
-          <StarIcon />
+          {starArray.map((arrElement, index) => {
+            if (arrElement === "full") {
+              return <StarIcon key={index} />;
+            } else if (arrElement === "half") {
+              return <StarHalfIcon key={index} />;
+            } else {
+              return <StarBorderIcon key={index} />;
+            }
+          })}
         </span>
       </div>
       <p>
