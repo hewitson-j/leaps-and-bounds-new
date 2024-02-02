@@ -5,3 +5,17 @@
 .reviews-links:hover {
   color: red;
 }
+
+.reviews-star-link {
+  transition-duration: 0.5s;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.reviews-star-link:hover {
+  transform: scale(1.25);
+  transition: transform color 0.5s;
+  cursor: pointer;
+  color: red;
+}
