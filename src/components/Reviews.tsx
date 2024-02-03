@@ -37,6 +37,104 @@ export default function Reviews() {
       </div>
       <p>
         <a
+          href="https://www.facebook.com/MsMelanieTrujillo/reviews"
+          target="_blank"
+          className="reviews-links"
+        >
+          If you're looking for an incredible preschool look no further!! My son
+          just finished and I cannot say enough great things. Mrs. Melanie has
+          such a kind gentle spirit about her. My son had many rough mornings
+          but she was always super patient and kind. I loved the curriculum she
+          used. So many fun and creative crafts they did. The Christmas family
+          event was so fun too as well as the graduation. I wish she taught
+          Kindergarten too so we could stay another year!
+          <br />
+          <i>Danielle G.</i>
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://www.facebook.com/share/SV6PxwTvz6J4M5hf/"
+          target="_blank"
+          className="reviews-links"
+        >
+          This program has been such a blessing for our son. He has grown so
+          much in his knowledge, social skills, attention and learning skills,
+          and his confidence and curiosity. He truly seems well prepared to
+          enter into kindergarten, and may even be advanced beyond his age,
+          thanks to Leaps and Bounds. I even learn a thing or two on the drive
+          home! Ms. Melanie has created such an engaging, fun, and intentional
+          program, and she truly cares about the success of each child. The kids
+          absolutely love her, and you can easily tell they’ve all created bonds
+          with each other and with her. I can’t recommend it enough.
+          <br />
+          <i>Alan V.</i>
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://www.facebook.com/share/RzNpCUEnYEcRRWMC/"
+          target="_blank"
+          className="reviews-links"
+        >
+          Mrs. Melanie is so special to our family! The progress our daughter
+          has made is so far beyond an academic realm. Her character, her self
+          confidence, her socialization, her independence. What Mrs. Melanie
+          does is more than any traditional academic center could provide. We
+          cannot recommend her highly enough. We’ve loved getting to know the
+          classmates and their families. Having a small class makes this
+          experience unique and wonderful for families starting their academic
+          journey with their young children. We are confident our daughter will
+          be more than prepared for kindergarten and beyond—in academics,
+          socialization, independence/autonomy, and so much more. We’ve loved
+          how communicative Melanie is with us as parents with her concerns or
+          even accolades of our child. And she is our biggest cheerleader from a
+          parent to a parent. Gratitude forever for this wonderful woman and
+          what she has built.
+          <br />
+          <i>Catie F.</i>
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://www.facebook.com/share/1hfdqTArWBun3dfh/"
+          target="_blank"
+          className="reviews-links"
+        >
+          With preschool being the first introduction our child would have to
+          education outside our home, we were looking for a program that would
+          stimulate our daughter's desire to learn in a manner she would enjoy.
+          Melanie's program has exceeded all of our expectations. We have seen
+          our child grow, not only academically, but most importantly in her
+          character and social interactions with her peers. Hands down and
+          without any reservations, we recommend Leaps & Bounds for your
+          preschool needs.
+          <br />
+          <i>Marcie B.</i>
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://www.facebook.com/share/K3P8zHPJ7A2a5jaL/"
+          target="_blank"
+          className="reviews-links"
+        >
+          If you’re thinking of sending your child here, don’t hesitate and DO
+          IT! Melanie is so amazing, I honestly don’t have enough words to
+          describe the impact she’s had on my son. This is his second year with
+          her and he’s learned so much, intellectually, emotionally, physically,
+          musically, etc. Every time my son talks about his “family”, Melanie is
+          always included in that grouping. He truly sees her as his family and
+          we do too! She’s kind and patient and loving and makes all of her
+          students feel cared for while at school. I would absolutely recommend
+          her as a preschool teacher, so much so that I will definitely be
+          sending my daughter in a couple years!
+          <br />
+          <i>Jessa R.</i>
+        </a>
+        <br />
+        <br />
+        <a
           href="https://www.facebook.com/17802835/posts/10107192637214339/?mibextid=WC7FNe"
           target="_blank"
           className="reviews-links"
