@@ -35,7 +35,7 @@ export default function Reviews() {
           })}
         </span>
       </div>
-      <p>
+      <p className="reviews-content">
         <a
           href="https://www.facebook.com/MsMelanieTrujillo/reviews"
           target="_blank"
