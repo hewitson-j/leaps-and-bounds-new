@@ -132,6 +132,7 @@ export default function Carousel({ images }: CarouselProps) {
         </div>
         <div id="carousel-image-container">
           <img
+            alt="Leaps and Bounds Images"
             src={images[currentImage]}
             style={{
               width: imageDimensions.width,

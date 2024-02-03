@@ -1,11 +1,16 @@
-import image from "../assets/mrs-melanie.jpg";
+import profilePic from "../assets/ProfilePic.jpg";
 import "./MeetTeacher.css";
 
 export default function MeetTeacher() {
   return (
     <div className="meet-teacher" id="meet-teacher">
       <h2>Meet the Teacher!</h2>
-      <img src={image} alt="Ms. Melanie" id="melanie-image" />
+      <img
+        src={profilePic}
+        alt="Ms. Melanie"
+        title="Ms. Melanie"
+        id="melanie-image"
+      />
       <p>
         I am passionate about teaching preschool! I have been working in the
         field of early childhood education for almost 20 years beginning in high
