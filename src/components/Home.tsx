@@ -1,4 +1,5 @@
 import Carousel from "./Carousel";
+import "./Home.css";
 import { studentsImageArray } from "./ImagesArrays";
 
 export default function Home() {
