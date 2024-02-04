@@ -12,13 +12,13 @@ export default function MeetTeacher() {
         id="melanie-image"
       />
       <p>
-        I am passionate about teaching preschool! I have been working in the
-        field of early childhood education for almost 20 years beginning in high
-        school. I am a member of NAEYC, CAEYC and am licensed with the state of
-        Colorado. After 10 years of working in the public school system in
-        Nevada I moved to Colorado Springs and began working at a childcare
-        center and did so for over two years. At that time, I decided to open my
-        own preschool classroom.
+        My name is Melanie Trujillo. I am passionate about teaching preschool! I
+        have been working in the field of early childhood education for almost
+        20 years beginning in high school. I am a member of NAEYC, CAEYC and am
+        licensed with the state of Colorado. After 10 years of working in the
+        public school system in Nevada I moved to Colorado Springs and began
+        working at a childcare center and did so for over two years. At that
+        time, I decided to open my own preschool classroom.
         <br />
         <br />
         I have been teaching preschool-age students in my home as a licensed
