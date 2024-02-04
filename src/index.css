@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #99d9ea;
 }
 
 a {
@@ -19,7 +20,7 @@ p {
 }
 
 .buttons {
-  background-color: #3499af;
+  background-color: #ffc40c;
   border: none;
   border-radius: 5px;
   margin: auto;
@@ -28,6 +29,6 @@ p {
 }
 
 .buttons:hover {
-  background-color: #206f81;
+  background-color: #ac8307;
   cursor: pointer;
 }

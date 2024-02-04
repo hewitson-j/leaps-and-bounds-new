@@ -1,7 +1,7 @@
 import About from "./About";
 import "./Body.css";
 import Contact from "./Contact";
-import Copyright from "./Copyright";
+import Footer from "./Footer";
 import Home from "./Home";
 import MeetTeacher from "./MeetTeacher";
 import Reviews from "./Reviews";
@@ -15,7 +15,7 @@ export default function Body() {
         <MeetTeacher />
         <Reviews />
         <Contact />
-        <Copyright />
+        <Footer />
       </div>
     </div>
   );

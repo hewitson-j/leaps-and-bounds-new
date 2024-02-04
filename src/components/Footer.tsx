@@ -1,13 +1,11 @@
-import "./Copyright.css";
+import "./Footer.css";
 
-export default function Copyright() {
+export default function Footer() {
   return (
-    <div className="copyright">
+    <div className="footer">
       <hr />
       <p id="copyright-line">
         Leaps and Bounds Preschool is owned and operated by Melanie Trujillo.
-        <br />
-        Website Copyright © Jacob Hewitson 2023
       </p>
     </div>
   );

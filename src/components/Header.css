@@ -2,15 +2,17 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
 
 #header-logo {
   display: flex;
-  width: 90%;
-  min-width: 250px;
+  width: 50%;
+  height: 40%;
+  min-width: 300px;
+  min-height: 250px;
   grid-column: 2;
   margin: auto;
 }
@@ -25,6 +27,9 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  height: 50%;
+  min-height: 125px;
+  margin: auto;
   grid-column: 3;
 }
 

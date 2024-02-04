@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #3499af;
+  background-color: #ffc40c;
 }
 
 .navbar ul {
@@ -19,7 +19,8 @@
 }
 
 .navbar ul li:hover {
-  background-color: #206f81;
+  background-color: #ac8307;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
