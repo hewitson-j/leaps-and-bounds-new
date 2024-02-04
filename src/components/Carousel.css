@@ -31,16 +31,6 @@
   justify-content: center;
 }
 
-.carousel-body button {
-  background-color: #3499af;
-  border: none;
-  border-radius: 5px;
-  margin: auto;
-  color: white;
-  padding: 1rem;
-  height: 50px;
-}
-
 .carousel-mobile-buttons {
   display: none;
   margin: auto;

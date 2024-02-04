@@ -3,13 +3,13 @@
 }
 
 .mobile-navbar-body {
-  background-color: #3499af;
+  background-color: #ffc40c;
   margin-bottom: 0;
 }
 
 .mobile-navbar-menu {
   list-style: none;
-  background-color: #0b353f;
+  background-color: #ac8307;
   margin-top: 0;
 }
 
@@ -25,7 +25,7 @@
 #mobile-navbar-button {
   border: none;
   color: white;
-  background-color: #3499af;
+  background-color: #ffc40c;
   padding: 1rem;
   margin-left: 1rem;
   font-size: 16px;
