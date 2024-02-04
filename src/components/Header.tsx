@@ -12,6 +12,7 @@ export default function Header() {
           src={logo}
           alt="Leaps and Bounds Preschool Logo"
           id="header-logo"
+          title="Leaps and Bounds Preschool Logo"
         />
         <div id="header-contact-info">
           <p>
