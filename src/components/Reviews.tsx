@@ -37,7 +37,7 @@ export default function Reviews() {
       </div>
       <p className="reviews-content">
         <a
-          href="https://www.facebook.com/MsMelanieTrujillo/reviews"
+          href="https://www.facebook.com/share/sEUEZJpVGHxJDAkm/?mibextid=WC7FNe"
           target="_blank"
           className="reviews-links"
         >
