@@ -2,6 +2,8 @@ import profilePic from "../assets/ProfilePic.jpg";
 import "./MeetTeacher.css";
 
 export default function MeetTeacher() {
+  const currentDate = new Date();
+
   return (
     <div className="meet-teacher" id="meet-teacher">
       <h2>Meet the Teacher!</h2>
@@ -20,11 +22,11 @@ export default function MeetTeacher() {
         working at a childcare center and did so for over two years. At that
         time, I decided to open my own preschool classroom.
         <br />
-        <br />
-        I have been teaching preschool-age students in my home as a licensed
-        family childcare provider for over five years. My husband and I have
-        been married 9 years. We have a beautifully blended family with six
-        children whose ages range from 17- 25.
+        <br />I have been teaching preschool-age students in my home as a
+        licensed family child care provider for since 2017. My husband and I
+        have been married {currentDate.getFullYear() - 2014} years. We have a
+        beautifully blended family with six children whose ages range from{" "}
+        {currentDate.getFullYear() - 2006} - {currentDate.getFullYear() - 1997}.
         <br />
         <br />
         We have one dog named Rosie and a cat named Ophelia. I enjoy being able
