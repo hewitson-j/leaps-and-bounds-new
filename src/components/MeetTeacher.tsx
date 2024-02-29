@@ -26,7 +26,7 @@ export default function MeetTeacher() {
         licensed family child care provider for since 2017. My husband and I
         have been married {currentDate.getFullYear() - 2014} years. We have a
         beautifully blended family with six children whose ages range from{" "}
-        {currentDate.getFullYear() - 2006} - {currentDate.getFullYear() - 1997}.
+        {currentDate.getFullYear() - 2006} - {currentDate.getFullYear() - 1998}.
         <br />
         <br />
         We have one dog named Rosie and a cat named Ophelia. I enjoy being able
