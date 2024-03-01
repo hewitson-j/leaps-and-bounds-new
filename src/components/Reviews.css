@@ -26,4 +26,8 @@
   max-height: 900px;
   overflow: auto;
   padding-right: 1rem;
+  font-size: 16pt;
+  width: 80%;
+  text-align: left;
+  margin: auto;
 }
