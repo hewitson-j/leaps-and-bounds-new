@@ -14,8 +14,13 @@ import welcomeSign from "../assets/facilities/welcome-sign.jpg";
 
 import bottles from "../assets/students/bottles.jpg";
 import building from "../assets/students/building.jpg";
+import candyland from "../assets/students/candyland.jpg";
 import cards from "../assets/students/cards.jpg";
+import castle from "../assets/students/castle.jpg";
+import dough from "../assets/students/dough.jpg";
 import funTogether from "../assets/students/fun-together.jpg";
+import ice from "../assets/students/ice.jpg";
+import math from "../assets/students/math.jpg";
 import pans from "../assets/students/pans.jpg";
 import parachute from "../assets/students/parachute.jpg";
 import picnic from "../assets/students/picnic.jpg";
@@ -23,10 +28,12 @@ import plate from "../assets/students/plate.jpg";
 import stPlayhouse from "../assets/students/playhouse.jpg";
 import santa from "../assets/students/santa.jpg";
 import science from "../assets/students/science.jpg";
+import snack from "../assets/students/snack.jpg";
 import teamwork from "../assets/students/teamwork.jpg";
 import tower from "../assets/students/tower.jpg";
 import tray from "../assets/students/tray.jpg";
 import writing from "../assets/students/writing.jpg";
+import water from "../assets/students/water.jpg";
 
 const facilitiesImageArray: string[] = [
   artCenter,
@@ -47,8 +54,13 @@ const facilitiesImageArray: string[] = [
 const studentsImageArray: string[] = [
   bottles,
   building,
+  candyland,
   cards,
+  castle,
+  dough,
   funTogether,
+  ice,
+  math,
   pans,
   parachute,
   picnic,
@@ -56,10 +68,12 @@ const studentsImageArray: string[] = [
   stPlayhouse,
   santa,
   science,
+  snack,
   teamwork,
   tower,
   tray,
   writing,
+  water,
 ];
 
 export { studentsImageArray, facilitiesImageArray };
