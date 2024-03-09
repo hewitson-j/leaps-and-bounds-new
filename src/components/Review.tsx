@@ -9,7 +9,13 @@ interface ReviewProps {
 export default function Review({ url, paragraph, name }: ReviewProps) {
   return (
     <div className="review">
-      <a href={`${url}`} target="_blank" className="review-link">
+      <a
+        href={`${url}`}
+        target="_blank"
+        className="review-link"
+        role="link"
+        aria-label={`Review from ${name}`}
+      >
         {paragraph}
         <br />
         <i>- {name}</i>

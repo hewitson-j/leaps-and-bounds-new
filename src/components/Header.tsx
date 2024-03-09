@@ -8,12 +8,14 @@ export default function Header() {
     <>
       <div className="header-grid">
         <div id="header-whitespace"></div>
-        <img
-          src={logo}
-          alt="Leaps and Bounds Preschool Logo"
-          id="header-logo"
-          title="Leaps and Bounds Preschool Logo"
-        />
+        <h1>
+          <img
+            src={logo}
+            alt="Leaps and Bounds Preschool Logo"
+            id="header-logo"
+            title="Leaps and Bounds Preschool Logo"
+          />
+        </h1>
         <div id="header-contact-info">
           <p>
             <b>melonro143@yahoo.com</b>
@@ -24,6 +26,8 @@ export default function Header() {
           <a
             href="https://www.facebook.com/MsMelanieTrujillo"
             title="Leaps and Bounds Preschool Facebook"
+            role="link"
+            aria-label="Link to Facebook Page"
           >
             <b>Facebook Page</b>
           </a>

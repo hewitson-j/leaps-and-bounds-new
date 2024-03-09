@@ -3,21 +3,31 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <ul>
+      <ul role="navigation" aria-label="Navbar">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">
+            <b>Home</b>
+          </a>
         </li>
         <li>
-          <a href="#about">My Program</a>
+          <a href="#about">
+            <b>My Program</b>
+          </a>
         </li>
         <li>
-          <a href="#meet-teacher">Meet the Teacher</a>
+          <a href="#meet-teacher">
+            <b>Meet the Teacher</b>
+          </a>
         </li>
         <li>
-          <a href="#reviews">Reviews</a>
+          <a href="#reviews">
+            <b>Reviews</b>
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">
+            <b>Contact</b>
+          </a>
         </li>
       </ul>
     </div>

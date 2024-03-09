@@ -8,7 +8,12 @@ export default function Contact() {
         <div className="contact-child">
           <h3>Email</h3>
           <p>
-            <a href="mailto:melonro143@yahoo.com" id="contact-email">
+            <a
+              href="mailto:melonro143@yahoo.com"
+              id="contact-email"
+              role="link"
+              aria-label="Open your Mailing App to send an email to melonro143@yahoo.com"
+            >
               melonro143@yahoo.com
             </a>
           </p>
@@ -16,7 +21,13 @@ export default function Contact() {
         <div className="contact-child">
           <h3>Phone</h3>
           <p>
-            <a href="tel:719-439-0566">719-439-0566</a>
+            <a
+              href="tel:719-439-0566"
+              role="link"
+              aria-label="Open your phone app to call"
+            >
+              719-439-0566
+            </a>
           </p>
         </div>
         <div className="contact-child">
@@ -30,6 +41,8 @@ export default function Contact() {
         className="buttons"
         id="schedule-button"
         href="mailto:melonro143@yahoo.com"
+        role="link"
+        aria-label="Open your Mailing App to send an email to melonro143@yahoo.com"
       >
         Schedule a Tour!
       </a>
