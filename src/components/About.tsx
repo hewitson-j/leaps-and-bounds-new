@@ -4,7 +4,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div id="about" className="about">
+    <div id="about" className="about" role="article">
       <h2>About our Program</h2>
       <p>
         To provide each child with a healthy and happy Pre-K experience in a

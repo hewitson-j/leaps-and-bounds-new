@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <>
+    <header>
       <div className="header-grid">
         <div id="header-whitespace"></div>
         <h1>
@@ -35,6 +35,6 @@ export default function Header() {
       </div>
       <Navbar />
       <MobileNavbar />
-    </>
+    </header>
   );
 }

@@ -131,7 +131,7 @@ export default function Reviews() {
   ];
 
   return (
-    <div className="reviews" id="reviews">
+    <div className="reviews" id="reviews" role="article">
       <h2>Reviews</h2>
       <div
         className="reviews-star-link"

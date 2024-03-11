@@ -5,7 +5,7 @@ export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="mobile-navbar">
+    <div className="mobile-navbar" role="navigation" aria-label="Navbar">
       <div className="mobile-navbar-body">
         <button
           id="mobile-navbar-button"

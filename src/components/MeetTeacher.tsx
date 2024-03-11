@@ -5,7 +5,7 @@ export default function MeetTeacher() {
   const currentDate = new Date();
 
   return (
-    <div className="meet-teacher" id="meet-teacher">
+    <div className="meet-teacher" id="meet-teacher" role="article">
       <h2>Meet the Teacher!</h2>
       <img
         src={profilePic}

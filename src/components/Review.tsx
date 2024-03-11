@@ -8,7 +8,7 @@ interface ReviewProps {
 
 export default function Review({ url, paragraph, name }: ReviewProps) {
   return (
-    <div className="review">
+    <div className="review" role="comment">
       <a
         href={`${url}`}
         target="_blank"

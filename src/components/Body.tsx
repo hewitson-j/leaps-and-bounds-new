@@ -8,7 +8,7 @@ import Reviews from "./Reviews";
 
 export default function Body() {
   return (
-    <div className="body-container">
+    <main className="body-container">
       <div className="body-content">
         <Home />
         <About />
@@ -17,6 +17,6 @@ export default function Body() {
         <Contact />
         <Footer />
       </div>
-    </div>
+    </main>
   );
 }
