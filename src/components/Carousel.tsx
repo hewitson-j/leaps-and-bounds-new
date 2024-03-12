@@ -5,7 +5,12 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 interface CarouselProps {
-  images: string[];
+  images: ImagesArraysProps[];
+}
+
+export interface ImagesArraysProps {
+  image: string,
+  alt: string
 }
 
 export default function Carousel({ images }: CarouselProps) {
@@ -49,7 +54,7 @@ export default function Carousel({ images }: CarouselProps) {
   };
 
   useEffect(() => {
-    calculateImageDimensions(images[currentImage]);
+    calculateImageDimensions(images[currentImage].image);
   }, [images, currentImage]);
 
   const handleNext = () => {
@@ -136,8 +141,8 @@ export default function Carousel({ images }: CarouselProps) {
         </div>
         <div id="carousel-image-container">
           <img
-            alt="Leaps and Bounds Images"
-            src={images[currentImage]}
+            alt={images[currentImage].alt}
+            src={images[currentImage].image}
             style={{
               width: imageDimensions.width,
               height: imageDimensions.height,
