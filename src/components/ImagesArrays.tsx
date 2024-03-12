@@ -52,6 +52,7 @@ const facilitiesImageArray: string[] = [
 ];
 
 const studentsImageArray: string[] = [
+  parachute,
   bottles,
   building,
   candyland,
@@ -62,7 +63,6 @@ const studentsImageArray: string[] = [
   ice,
   math,
   pans,
-  parachute,
   picnic,
   plate,
   stPlayhouse,

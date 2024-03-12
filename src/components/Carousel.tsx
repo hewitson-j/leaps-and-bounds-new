@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import "./Carousel.css";
 
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 interface CarouselProps {
   images: string[];
 }
@@ -126,8 +129,9 @@ export default function Carousel({ images }: CarouselProps) {
             onClick={handlePrev}
             title="Back"
             id="carousel-back-button"
+            aria-label={'Carousel Back'}
           >
-            ← Back
+            <ArrowBackIosNewIcon/>
           </button>
         </div>
         <div id="carousel-image-container">
@@ -147,8 +151,9 @@ export default function Carousel({ images }: CarouselProps) {
             onClick={handleNext}
             title="Next"
             id="carousel-next-button"
+            aria-label={'Carousel Next'}
           >
-            Next →
+            <ArrowForwardIosIcon/>
           </button>
         </div>
       </div>
