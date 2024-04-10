@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import './TermsOfService.css'
 
 export default function TermsOfService(){
     const navigate = useNavigate()
@@ -9,7 +10,8 @@ export default function TermsOfService(){
             <p>Last updated: April 10, 2024</p>
             <button onClick={() => {
                 navigate('/')
-            }}>Back to Home</button>
+            }}
+            className="buttons">Back to Home</button>
             <p>Please read these terms and conditions carefully before using Our Service.</p>
             <h2>Interpretation and Definitions</h2>
             <h3>Interpretation</h3>
