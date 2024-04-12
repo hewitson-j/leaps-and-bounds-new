@@ -2,9 +2,11 @@
   max-width: 90%;
   margin: 2.5rem auto;
   padding-bottom: 1rem;
+  font-size: 12pt;
 }
 
 #copyright-line {
   text-align: center;
-  font-size: 10pt;
+  font-size: 12pt;
+  margin-bottom: .5rem;
 }
