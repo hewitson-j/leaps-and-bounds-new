@@ -1,3 +1,3 @@
 # Leaps and Bounds Preschool
 
-A website developed in React and Typescript.
+A website developed for a client in React and Typescript.
