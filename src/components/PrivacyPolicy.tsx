@@ -1,11 +1,10 @@
 import { useNavigate } from "react-router-dom"
-import './PrivacyPolicy.css'
 
 export default function PrivacyPolicy () {
     const navigate = useNavigate()
 
     return (
-        <div className="privacy-policy">
+        <div className="privacy-policy legal">
             <h1>Privacy Policy</h1>
             <p>Last updated: April 15, 2024</p>
             <button className="buttons" onClick={() => {

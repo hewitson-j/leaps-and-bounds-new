@@ -1,11 +1,10 @@
 import { useNavigate } from "react-router-dom"
-import './TermsOfService.css'
 
 export default function TermsOfService(){
     const navigate = useNavigate()
 
     return (
-        <div className='terms-of-service'>
+        <div className='terms-of-service legal'>
             <h1>Terms and Conditions</h1>
             <p>Last updated: April 15, 2024</p>
             <button onClick={() => {

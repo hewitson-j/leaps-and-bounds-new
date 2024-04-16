@@ -32,3 +32,21 @@ p {
   background-color: #ac8307;
   cursor: pointer;
 }
+
+.legal {
+  margin: 2rem auto;
+  width: 80%;
+  min-width: 300px;
+  text-align: center;
+}
+
+.legal button {
+  margin: 2rem auto;
+}
+
+.legal ul {
+  width: 80%;
+  min-width: 300px;
+  margin: auto;
+  text-align: left;
+}
