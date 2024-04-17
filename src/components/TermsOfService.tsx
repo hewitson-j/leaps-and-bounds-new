@@ -5,13 +5,15 @@ export default function TermsOfService(){
 
     return (
         <div className='terms-of-service legal'>
-            <h1>Terms and Conditions</h1>
-            <p>Last updated: April 15, 2024</p>
-            <button onClick={() => {
-                navigate('/')
-            }}
-            className="buttons">Back to Home</button>
-            <p>Please read these terms and conditions carefully before using Our Service.</p>
+            <div className="legal-header">
+                <h1>Terms and Conditions</h1>
+                <p className='legal-updated-date'><b>Last updated: April 15, 2024</b></p>
+                <button onClick={() => {
+                    navigate('/')
+                }}
+                className="buttons"><b>Back to Home</b></button>
+                <p>Please read these terms and conditions carefully before using Our Service.</p>
+            </div>
             <h2>Interpretation and Definitions</h2>
             <h3>Interpretation</h3>
             <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>

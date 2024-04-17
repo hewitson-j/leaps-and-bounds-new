@@ -47,6 +47,10 @@ p {
 .legal ul {
   width: 80%;
   min-width: 300px;
-  margin: auto;
+  margin: 2rem auto;
   text-align: left;
+}
+
+.legal-header p {
+  text-align: center;
 }
