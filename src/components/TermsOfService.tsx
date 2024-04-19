@@ -7,7 +7,7 @@ export default function TermsOfService(){
         <div className='terms-of-service legal'>
             <div className="legal-header">
                 <h1>Terms and Conditions</h1>
-                <p className='legal-updated-date'><b>Last updated: April 15, 2024</b></p>
+                <p className='legal-updated-date'><b>Last updated: April 19, 2024</b></p>
                 <button onClick={() => {
                     navigate('/')
                 }}
