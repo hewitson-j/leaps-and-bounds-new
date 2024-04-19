@@ -88,7 +88,9 @@ export default function TermsOfService(){
             </ul>
             <p>In certain instances, the Company generated text and images in part with GPT-3 and DALL-E, a large-scale language-generation model and image-generation model respectively owned and operated by OpenAI, for this Service. Upon generating draft language and images, the Company reviewed, edited, and revised the language and images to their own liking and takes ultimate responsibility and copyright ownership for the co-authored Material of this Service. Included below is a full list of Material which was generated through this method:</p>
             <ul>
-                <li>The Company Logo found at <a href="https://leapsandboundsprek.com" rel="external nofollow noopener" target="_blank">https://leapsandboundsprek.com</a></li>
+                <li>
+                    <p>The Company Logo found at <a href="https://leapsandboundsprek.com" rel="external nofollow noopener" target="_blank">https://leapsandboundsprek.com</a></p>
+                </li>
             </ul>
 
             <h2>Limitation of Liability</h2>
