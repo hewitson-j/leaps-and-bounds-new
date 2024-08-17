@@ -1,6 +1,18 @@
 import Carousel from "./Carousel";
 import { facilitiesImageArray } from "./ImagesArrays";
 import "./About.css";
+import List from "./List";
+
+const listPointsArr = [
+  "A Play-Based curriculum that meets Colorado State Standards",
+  "Family involvement activities several times per year",
+  "Nutritious morning snack consisiting of fruits, vegetables, whole grains and/or lean proteins.",
+  "Fun and inviting indoor and outdoor learning spaces.",
+  "A daily short Bible devotional.",
+  "Cooking and science exploration",
+  "Community involvement through special guest presenters.",
+  "Small class size with a ratio of six students to one teacher.",
+];
 
 export default function About() {
   return (
@@ -24,19 +36,7 @@ export default function About() {
         I want to provide your child with an exceptional Preschool experience.
         Leaps & Bounds Preschool highlights include:
       </p>
-      <ul className="about-list">
-        <li>A Play-Based curriculum that meets Colorado State Standards</li>
-        <li>Family involvement activities several times per year</li>
-        <li>
-          Nutritious morning snack consisiting of fruits, vegetables, whole
-          grains and/or lean proteins.
-        </li>
-        <li>Fun and inviting indoor and outdoor learning spaces.</li>
-        <li>A daily short Bible devotional.</li>
-        <li>Cooking and science exploration</li>
-        <li>Community involvement through special guest presenters.</li>
-        <li>Small class size with a ratio of six students to one teacher.</li>
-      </ul>
+      <List className="about-list" listPoints={listPointsArr} />
       <p>
         I am a licensed family childcare provider with the State of Colorado
         (license #1711173) providing care and education exclusively to
