@@ -1,22 +1,23 @@
 import { useEffect, useState } from "react";
 import "./Carousel.css";
 
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 interface CarouselProps {
   images: ImagesArraysProps[];
 }
 
 export interface ImagesArraysProps {
-  image: string,
-  alt: string
+  image: string;
+  alt: string;
 }
 
 export default function Carousel({ images }: CarouselProps) {
   const [currentImage, setCurrentImage] = useState(0);
   const [prevImage, setPrevImage] = useState(images.length - 1);
   const [nextImage, setNextImage] = useState(1);
+  const [isRunning, setIsRunning] = useState(true);
 
   const [imageDimensions, setImageDimensions] = useState({
     width: 0,
@@ -78,32 +79,33 @@ export default function Carousel({ images }: CarouselProps) {
   };
 
   useEffect(() => {
-    const autoAdvanceCarousel = () => {
-      if (currentImage === images.length - 1) {
-        setCurrentImage(0);
-      } else {
-        setCurrentImage(currentImage + 1);
-      }
+    if (isRunning) {
+      const autoAdvanceCarousel = () => {
+        if (currentImage === images.length - 1) {
+          setCurrentImage(0);
+        } else {
+          setCurrentImage(currentImage + 1);
+        }
 
-      if (prevImage === images.length - 1) {
-        setPrevImage(0);
-      } else {
-        setPrevImage(prevImage + 1);
-      }
+        if (prevImage === images.length - 1) {
+          setPrevImage(0);
+        } else {
+          setPrevImage(prevImage + 1);
+        }
 
-      if (nextImage === images.length - 1) {
-        setNextImage(0);
-      } else {
-        setNextImage(nextImage + 1);
-      }
-    };
+        if (nextImage === images.length - 1) {
+          setNextImage(0);
+        } else {
+          setNextImage(nextImage + 1);
+        }
+      };
+      const intervalId = setInterval(autoAdvanceCarousel, 5000);
 
-    const intervalId = setInterval(autoAdvanceCarousel, 5000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [currentImage, images, nextImage, prevImage]);
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [currentImage, images, nextImage, prevImage, isRunning]);
 
   const handlePrev = () => {
     if (currentImage === 0) {
@@ -134,9 +136,9 @@ export default function Carousel({ images }: CarouselProps) {
             onClick={handlePrev}
             title="Back"
             id="carousel-back-button"
-            aria-label={'Carousel Back'}
+            aria-label={"Carousel Back"}
           >
-            <ArrowBackIosNewIcon/>
+            <ArrowBackIosNewIcon />
           </button>
         </div>
         <div id="carousel-image-container">
@@ -156,9 +158,9 @@ export default function Carousel({ images }: CarouselProps) {
             onClick={handleNext}
             title="Next"
             id="carousel-next-button"
-            aria-label={'Carousel Next'}
+            aria-label={"Carousel Next"}
           >
-            <ArrowForwardIosIcon/>
+            <ArrowForwardIosIcon />
           </button>
         </div>
       </div>
@@ -180,6 +182,16 @@ export default function Carousel({ images }: CarouselProps) {
           →
         </button>
       </div>
+      <button
+        aria-label={isRunning ? "Pause" : "Play"}
+        onClick={() => {
+          setIsRunning(!isRunning);
+        }}
+        className="buttons"
+        id="carousel-pause-button"
+      >
+        {isRunning ? "Pause" : "Play"}
+      </button>
     </>
   );
 }
