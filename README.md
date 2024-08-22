@@ -9,3 +9,6 @@ With this application being only one page, the user is brought to the head of th
 
 ## Carousels
 There are several image carousels. Users can click the left and right buttons to navigate and the pause button to pause autoplay.
+
+## About
+When clicking the "My Program" link in the navbar you are brought to the **About our Program** and **WHat we Offer** sections with information about the preschool.
