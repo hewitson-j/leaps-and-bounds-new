@@ -14,4 +14,4 @@ There are several image carousels. Users can click the left and right buttons to
 When clicking the "My Program" link in the navbar you are brought to the *About our Program* and *What We Offer* sections with information about the preschool.
 
 ## Meet the Teacher
-This section has information about the owner of the school. It can be accessed by scrolling down or clicking the *Meet the Teacher* link in the navbar
+This section has information about the owner of the school. It can be accessed by scrolling down or clicking the *Meet the Teacher* link in the navbar.
