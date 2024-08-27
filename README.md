@@ -15,3 +15,6 @@ When clicking the "My Program" link in the navbar you are brought to the *About 
 
 ## Meet the Teacher
 This section has information about the owner of the school. It can be accessed by scrolling down or clicking the *Meet the Teacher* link in the navbar.
+
+## Reviews
+Accessible by clicking on the "Reviews" navbar link, this has a scrollable list of reviews provided by the owner as well as a link to her Facebook page.
