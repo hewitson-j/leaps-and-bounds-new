@@ -18,3 +18,6 @@ This section has information about the owner of the school. It can be accessed b
 
 ## Reviews
 Accessible by clicking on the "Reviews" navbar link, this has a scrollable list of reviews provided by the owner as well as a link to her Facebook page.
+
+## Contact
+This section allows users to send an email to the owner to schedule an appointment. This is done through a mailto link per the client. There are also links to other pages.
