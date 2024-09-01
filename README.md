@@ -21,3 +21,6 @@ Accessible by clicking on the "Reviews" navbar link, this has a scrollable list 
 
 ## Contact
 This section allows users to send an email to the owner to schedule an appointment. This is done through a mailto link per the client. There are also links to other pages.
+
+## Terms of Service/Privacy Policy
+This section is used for the terms of use of the website.
