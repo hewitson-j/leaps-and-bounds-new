@@ -41,6 +41,7 @@
 
 #carousel-pause-button {
   margin-top: 1rem;
+  font-size: 16pt;
 }
 
 @media screen and (max-width: 535px) {

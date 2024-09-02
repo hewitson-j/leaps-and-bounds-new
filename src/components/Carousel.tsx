@@ -189,8 +189,9 @@ export default function Carousel({ images }: CarouselProps) {
         }}
         className="buttons"
         id="carousel-pause-button"
+        title={isRunning ? "Pause" : "Play"}
       >
-        {isRunning ? "Pause" : "Play"}
+        {isRunning ? "⏸" : "⏵"}
       </button>
     </>
   );
