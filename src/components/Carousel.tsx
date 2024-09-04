@@ -3,6 +3,8 @@ import "./Carousel.css";
 
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import PauseIcon from "@mui/icons-material/Pause";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 interface CarouselProps {
   images: ImagesArraysProps[];
@@ -191,7 +193,7 @@ export default function Carousel({ images }: CarouselProps) {
         id="carousel-pause-button"
         title={isRunning ? "Pause" : "Play"}
       >
-        {isRunning ? "⏸" : "⏵"}
+        {isRunning ? <PauseIcon /> : <PlayArrowIcon />}
       </button>
     </>
   );
