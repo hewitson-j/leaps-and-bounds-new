@@ -11,7 +11,7 @@ With this application being only one page, the user is brought to the head of th
 There are several image carousels. Users can click the left and right buttons to navigate and the pause button to pause autoplay. The carousels are loaded with pictures provided by the client.
 
 ## About
-When clicking the "My Program" link in the navbar you are brought to the *About our Program* and *What We Offer* sections with information about the preschool.
+When clicking the "My Program" link in the navbar you are brought to the *About our Program* and *What We Offer* sections with information about the business.
 
 ## Meet the Teacher
 This section has information about the owner of the school. It can be accessed by scrolling down or clicking the *Meet the Teacher* link in the navbar.
