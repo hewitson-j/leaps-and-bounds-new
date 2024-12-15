@@ -1,9 +1,9 @@
 {
   "name": "leaps-and-bounds-new",
   "private": true,
-  "version": "2.3.16",
+  "version": "2.4.0",
   "type": "module",
-  "homepage": "http://www.leapsandboundsprek.com",
+  "homepage": "http://www.leapsandboundspreschoolcos.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
