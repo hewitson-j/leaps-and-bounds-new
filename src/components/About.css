@@ -8,6 +8,11 @@
   text-align: left;
 }
 
+#ask-us-how {
+  font-size: 16pt;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 835px) {
   .about-list {
     display: flex;

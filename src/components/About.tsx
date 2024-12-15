@@ -49,6 +49,9 @@ export default function About() {
           could be free!
         </b>
       </p>
+      <a href="#contact" id="ask-us-how">
+        <b>Ask us how!</b>
+      </a>
       <h2>Our Facilities</h2>
       <Carousel images={facilitiesImageArray} />
     </div>
