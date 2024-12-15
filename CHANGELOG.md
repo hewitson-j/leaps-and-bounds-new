@@ -1,4 +1,8 @@
-# LeapsAndBoundsPrek.com
+# LeapsAndBoundsPreschoolCos.com
+
+## 2.4.0 (12/14/24)
+
+Updated about text, added banner component
 
 ## 2.3.16 (9/4/24)
 

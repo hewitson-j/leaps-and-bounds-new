@@ -42,6 +42,13 @@ export default function About() {
         (license #1711173) providing care and education exclusively to
         preschool-age children.
       </p>
+      <br />
+      <p>
+        <b>
+          As a participating provider with Colorado UPK, your child's tuition
+          could be free!
+        </b>
+      </p>
       <h2>Our Facilities</h2>
       <Carousel images={facilitiesImageArray} />
     </div>
