@@ -45,8 +45,8 @@ export default function About() {
       <br />
       <p>
         <b>
-          As a participating provider with Colorado UPK, your child's tuition
-          could be free!
+          Leaps & Bounds Preschool is a Colorado UPK participating provider.
+          Based on eligibility, your child's tuition could be free!
         </b>
       </p>
       <a href="#contact" id="ask-us-how">

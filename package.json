@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.4.0",
   "type": "module",
-  "homepage": "http://www.leapsandboundspreschoolcos.com",
+  "homepage": "http://leapsandboundspreschoolcos.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
