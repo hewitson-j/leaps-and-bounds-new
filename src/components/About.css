@@ -10,7 +10,8 @@
 
 #ask-us-how {
   font-size: 16pt;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
+  display: block;
 }
 
 @media screen and (max-width: 835px) {
