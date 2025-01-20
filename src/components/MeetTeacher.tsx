@@ -16,15 +16,15 @@ export default function MeetTeacher() {
       <p>
         My name is Melanie Trujillo. I am passionate about teaching preschool! I
         have been working in the field of early childhood education for almost
-        20 years beginning in high school. I am a member of NAEYC, CAEYC and am
+        20 years beginning in high school. I am a member of NAEYC, COAEYC and am
         licensed with the state of Colorado. After 10 years of working in the
         public school system in Nevada I moved to Colorado Springs and began
         working at a childcare center and did so for over two years. At that
         time, I decided to open my own preschool classroom.
         <br />
         <br />I have been teaching preschool-age students in my home as a
-        licensed family child care provider for since 2017. My husband and I
-        have been married {currentDate.getFullYear() - 2014} years. We have a
+        licensed family child care provider since 2017. My husband and I have
+        been married {currentDate.getFullYear() - 2014} years. We have a
         beautifully blended family with six children whose ages range from{" "}
         {currentDate.getFullYear() - 2006} - {currentDate.getFullYear() - 1998}.
         <br />

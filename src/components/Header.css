@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+#header-tagline {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ee7661;
+}
+
 #header-logo {
   display: flex;
   width: 60%;

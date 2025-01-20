@@ -1,5 +1,9 @@
 # LeapsAndBoundsPreschoolCos.com
 
+## 2.4.2 (1/19/25)
+
+Fixed typos in sections. Added new tagline in header.
+
 ## 2.4.1 (12/15/24)
 
 Fixed ask us how tag margins
