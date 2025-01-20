@@ -2,7 +2,7 @@
 
 ## 2.4.2 (1/19/25)
 
-Fixed ask us how tag margins
+Fixed typos, ...
 
 ## 2.4.1 (12/15/24)
 
