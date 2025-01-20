@@ -29,7 +29,7 @@ export default function About() {
         senses. I promote problem solving, positive social skills and
         communication every day. My curriculum includes studies of interest to
         the Pre-K child and I work hard to present these studies as well as
-        necessary kindergarten and life skills in a meaningful way.
+        necessary kindergarten readiness and life skills in a meaningful way.
       </p>
       <h2>What we Offer</h2>
       <p>
