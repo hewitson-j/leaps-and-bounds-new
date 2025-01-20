@@ -1,9 +1,22 @@
+import { useEffect, useState } from "react";
 import logo from "../assets/LogoPng.png";
 import "./Header.css";
 import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
 
 export default function Header() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <header>
       <div className="header-grid">
@@ -32,7 +45,17 @@ export default function Header() {
         </div>
       </div>
       <p id="header-tagline">
-        <i>Growing young minds by leaps & bounds.</i>
+        <i>
+          Growing young minds by
+          {screenWidth > 490 ? (
+            " leaps & bounds."
+          ) : (
+            <>
+              <br />
+              leaps & bounds.
+            </>
+          )}
+        </i>
       </p>
       <Navbar />
       <MobileNavbar />
