@@ -1,5 +1,9 @@
 # LeapsAndBoundsPreschoolCos.com
 
+## 2.4.4 (2/27/25)
+
+Updated banner text.
+
 ## 2.4.3 (1/19/25)
 
 Wrap tagline down on small screens.

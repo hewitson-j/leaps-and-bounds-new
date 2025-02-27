@@ -4,19 +4,12 @@
   margin: 1rem auto;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   font-size: 16pt;
   padding: 1rem;
   border-radius: 5px;
   border: 2px solid black;
   background-color: #28aecf;
-}
-
-.banner-text {
-  flex-basis: 70%;
-}
-
-.banner-button {
-  flex-basis: 5%;
 }
 
 .banner-button button {
