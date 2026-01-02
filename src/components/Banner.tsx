@@ -5,6 +5,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 interface BannerProps {
   dismissable?: boolean;
+  openNewTab?: boolean;
   message: string;
   link?: string;
   linkName?: string;
@@ -17,6 +18,7 @@ export default function Banner({
   link,
   linkName,
   cookieName,
+  openNewTab,
 }: BannerProps) {
   const [hideBanner, setHideBanner] = useState(true);
 
@@ -40,7 +42,9 @@ export default function Banner({
         {link && (
           <>
             {" - "}
-            <a href={link}>{linkName ? linkName : link}</a>
+            <a href={link} target={openNewTab ? "_blank" : "_self"}>
+              {linkName ? linkName : link}
+            </a>
           </>
         )}
       </span>

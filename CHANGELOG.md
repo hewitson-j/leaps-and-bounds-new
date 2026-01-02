@@ -1,5 +1,9 @@
 # LeapsAndBoundsPreschoolCos.com
 
+## 2.4.5 (1/2/26)
+
+Updated banner text, updated dependencies
+
 ## 2.4.4 (2/27/25)
 
 Updated banner text.

@@ -12,10 +12,11 @@ export default function Body() {
     <main className="body-container">
       <Banner
         dismissable
-        message="Enrollment for the 2025-2026 Colorado UPK school year is open!"
+        message="Enrollment for the 2026-2027 Colorado UPK school year is open!"
         link="https://upk.colorado.gov/"
         linkName="Enroll Here!"
         cookieName="hide-upk-banner"
+        openNewTab
       />
       <div className="body-content">
         <Home />
